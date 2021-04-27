@@ -1,25 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Node Node;
-
-// A Node structure that contains a data element 
-// and a reference tovthe next node in the queue.
-struct Node {
-	int data;
-	Node *next;
-};
-
-// A Queue structure that works in a FIFO manner.
-// Contains information about the queue's max size, 
-// number of elements stored in the queue,
-// and references to head and tail elements.
-typedef struct Queue {
-	int maxsize;
-	int count;
-	Node *head;
-	Node *tail;
-} Queue;
+#include "queue.h"
 
 
 // initialize a queue with a given size

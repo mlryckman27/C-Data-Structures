@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "queue.c"
+#include "queue.h"
 
 
 int main(int argc, char *argv[]) {
